@@ -1,0 +1,79 @@
+.container-fluid {
+    position: relative;
+    height: 100vh !important;
+}
+.searchForm__search-box {
+    border: 1px solid #e2e2e2;
+    padding: 0 10px;
+    border-radius: 7px;
+    z-index: 10 !important;
+}
+.searchForm__search-box input {
+    border: none;
+    box-shadow: none !important;
+    outline: none !important;
+    padding-left: 30px;
+    z-index: 10 !important;
+    transform: translateX(-5px);
+}
+
+.searchForm__search-box .btn-menu{
+    z-index: 10 !important;
+    background-color: #fff;
+    padding-left: 10px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.searchForm__search-box .btn-menu i {
+    color: #575757;
+    font-size: 25px;
+    margin-top: 7px;
+    z-index: 10 !important;
+}
+.user-panel__info p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #676767;
+}
+.user-panel__info a {
+    color: #8c8c8c;
+    font-size: 14px;
+}
+.sidebar-content li{
+    padding: 15px;
+}
+.sidebar-content li a {
+    color: #8c8c8c;
+}
+.mobile-map {
+    margin: 0;
+    padding: 0;
+    transform: translateY(-70px);
+    overflow: hidden;
+}
+.btn-find {
+    z-index: 10!important;
+    position: absolute;
+    bottom: 15px;
+    background-color: #000000;
+    color: #ffd726 !important;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    width: 90%;
+    transform: translateX(6%);
+
+}
+.btn-gps {
+    z-index: 10!important;
+    position: absolute;
+    bottom: 80px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 10px 0 0 0;
+    margin: 0;
+    color: #ffd726 !important;
+    font-weight: 400;
+    background-color: #000000;
+    border-radius: 100px;
+}

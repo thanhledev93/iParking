@@ -1,0 +1,33 @@
+
+.login-wrap{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../../img/bg-login.jpg") center/cover no-repeat;
+    height: 100vh;
+    font-family: 'Cormorant Unicase', serif;
+}
+.logo-box {
+    height: 100vh;
+}
+.border-right {
+    border-right: 2px solid #ffffff !important;
+    height: 400px;
+    transform: rotate(10deg);
+}
+.logo-wrap {
+    width: 100%;
+}
+.logo-image {
+    width: 350px;
+    height: 150px;
+}
+.form-login__wrap {
+    height: 100vh;
+}
+.loginForm {
+    color: white;
+}
+.login__forgot-password {
+    color: white;
+}
+.login__forgot-password:hover {
+   color: #5BABDF
+}
